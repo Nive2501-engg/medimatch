@@ -1,0 +1,20 @@
+medimatch/
+├── README.md
+├── database/schema.sql
+├── scripts/seed_vectors.py
+├── backend/
+│   ├── pom.xml
+│   └── src/main/
+│       ├── java/com/medimatch/
+│       │   ├── MediMatchApplication.java
+│       │   ├── config/AppConfig.java, CorsConfig.java
+│       │   ├── model/Doctor.java, Medicine.java
+│       │   ├── dto/SearchRequest.java, SearchResponse.java
+│       │   ├── repository/DoctorRepository.java, MedicineRepository.java
+│       │   ├── service/EmbeddingService.java, EndeeVectorService.java, SearchService.java
+│       │   └── controller/SearchController.java, DoctorController.java
+│       └── resources/application.properties
+└── frontend/
+    ├── index.html
+    ├── css/style.css
+    └── js/app.js
